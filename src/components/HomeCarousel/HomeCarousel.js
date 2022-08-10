@@ -14,7 +14,7 @@ const HomeCarousel = () => {
     <Carousel
       activeIndex={index}
       onSelect={handleSelect}
-      className="carousel-container"
+      className="carousel-container mt-[100px]"
     >
       <Carousel.Item>
         <img
