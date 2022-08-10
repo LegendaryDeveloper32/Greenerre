@@ -1,0 +1,12 @@
+.team-member {
+  .card {
+    height: 100%;
+    .member-occupation {
+      font-size: 1.5rem;
+    }
+    .member-company {
+      color: rgb(0, 77, 25);
+      font-weight: bold;
+    }
+  }
+}
