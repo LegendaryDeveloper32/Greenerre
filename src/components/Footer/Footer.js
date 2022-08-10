@@ -26,14 +26,14 @@ const Footer = () => {
             <a href="/service">Services</a>
           </li>
           <li>
-            <a href="/token">Green DAO</a>
+            <a href="/token">GreenDAO</a>
           </li>
           <li>
             <a href="/project">Projects</a>
           </li>
-          <li>
+          {/* <li>
             <a href="/outreach-education">Outreach &amp; Education</a>
-          </li>
+          </li> */}
           <li>
             <a href="/advisor">Board of Advisors</a>
           </li>

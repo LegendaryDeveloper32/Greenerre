@@ -33,7 +33,7 @@ const NavbarMenu = () => {
               Services
             </Nav.Link>
             <Nav.Link href="/token" className="px-4">
-              Green DAO
+              GreenDAO
             </Nav.Link>
             <NavDropdown
               title="More"
@@ -41,9 +41,9 @@ const NavbarMenu = () => {
               className="px-4"
             >
               <NavDropdown.Item href="/project">Projects</NavDropdown.Item>
-              <NavDropdown.Item href="/outreach-education">
+              {/* <NavDropdown.Item href="/outreach-education">
                 Outreach &amp; Education
-              </NavDropdown.Item>
+              </NavDropdown.Item> */}
               <NavDropdown.Item href="/advisor">
                 Board of Advisors
               </NavDropdown.Item>
