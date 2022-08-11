@@ -7,13 +7,16 @@ const GreenDAOla = () => {
   return (
     <div className="p-5 text-center token-item">
       <h1 className="text-center">GreenDAOla($GD)</h1>
-      <span>Governance token/Stable coin for sustainability ecosystem</span>
+      <span className="text-center">
+        Governance token/Stable coin for sustainability ecosystem
+      </span>
 
       <Row
         lg={2}
-        md={2}
+        md={1}
         sm={1}
-        className="d-flex align-items-center justify-content-center"
+        xs={1}
+        className="d-flex align-items-center justify-content-center mt-4"
       >
         <Col>
           <div className="d-grid gap-2">
