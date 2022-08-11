@@ -9,6 +9,7 @@ import Services from "./pages/Services/Services";
 import Project from "./pages/Projects/Project";
 import OutreachEducation from "./pages/OutreachEducation/OutreachEducation";
 import Advisor from "./pages/Advisors/Advisor";
+import Token from "./pages/Token/Token";
 
 //import components
 import Contact from "./components/Contact/Contact";
@@ -27,6 +28,7 @@ function App() {
         <Route path="/project" element={<Project />} />
         <Route path="/outreach-education" element={<OutreachEducation />} />
         <Route path="/advisor" element={<Advisor />} />
+        <Route path="/token" element={<Token />} />
       </Routes>
       <Contact />
       <Footer />
