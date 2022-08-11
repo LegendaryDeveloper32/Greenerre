@@ -1,6 +1,9 @@
 .team-member {
   .card {
     height: 100%;
+    .card-title {
+      font-size: 2rem;
+    }
     .member-occupation {
       font-size: 1.5rem;
     }
