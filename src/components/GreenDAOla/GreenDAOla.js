@@ -1,6 +1,6 @@
 import React from "react";
 import { Row, Col, Button, Card, ListGroup } from "react-bootstrap";
-
+import CButton from "../CButton/CButton";
 //import CSS
 import "./GreenDAOla.scss";
 const GreenDAOla = () => {
@@ -57,9 +57,7 @@ const GreenDAOla = () => {
       </Row>
       <Row className="mt-4">
         <Col>
-          <Button variant="success" className="w-100">
-            BUY
-          </Button>
+          <CButton text="BUY" className="bg-success" onClick={() => {}} />
         </Col>
         <Col>
           <Button variant="danger" className="w-100">
