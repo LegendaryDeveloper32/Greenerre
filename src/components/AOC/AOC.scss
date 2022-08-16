@@ -1,9 +1,15 @@
 .aoc-content {
   .card {
     height: 100%;
-    border-radius: 0px;
+    border: none !important;
+
     .card-text {
       font-size: 1.2rem;
+    }
+
+    .aoc-infobox:hover {
+      background-color: green;
+      color: white;
     }
   }
 }

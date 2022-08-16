@@ -16,7 +16,7 @@ const GreenDAOla = () => {
         md={1}
         sm={1}
         xs={1}
-        className="d-flex align-items-center justify-content-center mt-4"
+        className="d-flex align-items-end justify-content-center mt-4"
       >
         <Col>
           <div className="d-grid gap-2">
@@ -24,6 +24,18 @@ const GreenDAOla = () => {
               <img src="/token.png" />
             </div>
           </div>
+          <Row className="mt-4">
+            <Col>
+              <Button variant="success" className="w-100">
+                BUY
+              </Button>
+            </Col>
+            <Col>
+              <Button variant="danger" className="w-100">
+                SELL
+              </Button>
+            </Col>
+          </Row>
         </Col>
         <Col>
           <Card>
@@ -33,12 +45,6 @@ const GreenDAOla = () => {
                 <ListGroup.Item>
                   Total Supply: 5,000,000,000 tokens
                 </ListGroup.Item>
-                <ListGroup.Item>
-                  Launch supply: 50,000,000 tokens (1%)
-                </ListGroup.Item>
-                <ListGroup.Item>
-                  Reserve supply: 4,950,000,000 (99% for future mining)
-                </ListGroup.Item>
               </ListGroup>
             </Card.Body>
           </Card>
@@ -46,23 +52,13 @@ const GreenDAOla = () => {
             <Card.Header>VALUE</Card.Header>
             <Card.Body>
               <ListGroup>
+                <ListGroup.Item>Value is 1 $GD = $1 SGD</ListGroup.Item>
                 <ListGroup.Item>
-                  Peg to CO2 remissions (-ve emission)
+                  AI algorithm determines ESG offset value per token
                 </ListGroup.Item>
-                <ListGroup.Item>1$GD = 1tCO2 remissions</ListGroup.Item>
               </ListGroup>
             </Card.Body>
           </Card>
-        </Col>
-      </Row>
-      <Row className="mt-4">
-        <Col>
-          <CButton text="BUY" className="bg-success" onClick={() => {}} />
-        </Col>
-        <Col>
-          <Button variant="danger" className="w-100">
-            SELL
-          </Button>
         </Col>
       </Row>
     </div>

@@ -20,15 +20,15 @@ const AOC = () => {
       </Row>
       <Row className="aoc-content py-5" lg={5} md={3} sm={1}>
         <Col className="mb-4">
-          <Card bg="success" text="light">
-            <Card.Body className="d-flex align-items-center text-center justify-content-center">
+          <Card className="aoc-infobox border-none rounded-lg">
+            <Card.Body className="ease-in duration-200 d-flex align-items-center text-center justify-content-center cursor-pointer hover:rounded-lg bg-green-600 hover:bg-green-700 text-white drop-shadow-2xl">
               <Card.Text>Sustainability community</Card.Text>
             </Card.Body>
           </Card>
         </Col>
         <Col className="mb-4">
-          <Card bg="primary" text="light">
-            <Card.Body className="d-flex align-items-center text-center justify-content-center">
+          <Card className="aoc-infobox rounded-lg">
+            <Card.Body className="ease-in duration-200 d-flex align-items-center text-center justify-content-center cursor-pointer hover:rounded-lg bg-green-600 hover:bg-green-700 text-white drop-shadow-2xl">
               <Card.Text>
                 Allow members to participate in networking sessions, webinars
                 and conferences
@@ -37,8 +37,8 @@ const AOC = () => {
           </Card>
         </Col>
         <Col className="mb-4">
-          <Card bg="danger" text="light">
-            <Card.Body className="d-flex align-items-center text-center justify-content-center">
+          <Card className="aoc-infobox rounded-lg">
+            <Card.Body className="ease-in duration-200 d-flex align-items-center text-center justify-content-center cursor-pointer hover:rounded-lg bg-green-600 hover:bg-green-700 text-white drop-shadow-2xl">
               <Card.Text>
                 Promotes open sharing of knowledge in sustainability space
               </Card.Text>
@@ -46,15 +46,15 @@ const AOC = () => {
           </Card>
         </Col>
         <Col className="mb-4">
-          <Card bg="warning" text="light">
-            <Card.Body className="d-flex align-items-center text-center justify-content-center">
+          <Card className="aoc-infobox rounded-lg">
+            <Card.Body className="ease-in duration-200 d-flex align-items-center text-center justify-content-center cursor-pointer hover:rounded-lg bg-green-600 hover:bg-green-700 text-white drop-shadow-2xl">
               <Card.Text>Encourage and facilitate collaborations</Card.Text>
             </Card.Body>
           </Card>
         </Col>
         <Col className="mb-4">
-          <Card bg="info" text="light">
-            <Card.Body className="d-flex align-items-center text-center justify-content-center">
+          <Card className="aoc-infobox rounded-lg">
+            <Card.Body className="ease-in duration-200 d-flex align-items-center text-center justify-content-center cursor-pointer hover:rounded-lg bg-green-600 hover:bg-green-700 text-white drop-shadow-2xl">
               <Card.Text>Allow members to earn more tokens</Card.Text>
             </Card.Body>
           </Card>
