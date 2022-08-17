@@ -5,24 +5,24 @@ import "./Roadmap.scss";
 
 const Roadmap = () => {
   return (
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="main-timeline">
-            <div class="timeline">
-              <div href="#" class="timeline-content">
-                <div class="timeline-icon">
-                  <i class="fa fa-globe"></i>
+    <div className="container">
+      <div className="row">
+        <div className="col-md-12">
+          <div className="main-timeline">
+            <div className="timeline">
+              <div href="#" className="timeline-content">
+                <div className="timeline-icon">
+                  <i className="fa fa-globe"></i>
                 </div>
-                <div class="timeline-year">
+                <div className="timeline-year">
                   2022
                   <br />
                   08
                 </div>
-                <h3 class="title">
+                <h3 className="title">
                   Launch GreenDAOla token and integrate AOC with GreenDAO
                 </h3>
-                <p class="description">
+                <p className="description">
                   <span>
                     - 10% of total $GD token supple generated for airdrop, live
                     sales and give aways
@@ -52,35 +52,35 @@ const Roadmap = () => {
                 </p>
               </div>
             </div>
-            <div class="timeline">
-              <div href="#" class="timeline-content">
-                <div class="timeline-icon">
-                  <i class="fa fa-rocket"></i>
+            <div className="timeline">
+              <div href="#" className="timeline-content">
+                <div className="timeline-icon">
+                  <i className="fa fa-rocket"></i>
                 </div>
-                <div class="timeline-year">
+                <div className="timeline-year">
                   2022 <br /> 09
                 </div>
-                <h3 class="title">Alpha testing for VPets</h3>
-                <p class="description">
+                <h3 className="title">Alpha testing for VPets</h3>
+                <p className="description">
                   <span>- Limited to AOC holders and special invites only</span>
                   <br />
                   <span>- 2 weeks limited access Alpha test</span>
                 </p>
               </div>
             </div>
-            <div class="timeline">
-              <div href="#" class="timeline-content">
-                <div class="timeline-icon">
-                  <i class="fa fa-rocket"></i>
+            <div className="timeline">
+              <div href="#" className="timeline-content">
+                <div className="timeline-icon">
+                  <i className="fa fa-rocket"></i>
                 </div>
-                <div class="timeline-year">
+                <div className="timeline-year">
                   2022 <br /> 10
                 </div>
-                <h3 class="title">
+                <h3 className="title">
                   Open Beta public release for VPets with limited edition give
                   aways
                 </h3>
-                <p class="description">
+                <p className="description">
                   <span>
                     - VPet generation, interaction, in-game currency, free $GD
                     tokens for new players, equipment, accessories
@@ -88,16 +88,16 @@ const Roadmap = () => {
                 </p>
               </div>
             </div>
-            <div class="timeline">
-              <div href="#" class="timeline-content">
-                <div class="timeline-icon">
-                  <i class="fa fa-rocket"></i>
+            <div className="timeline">
+              <div href="#" className="timeline-content">
+                <div className="timeline-icon">
+                  <i className="fa fa-rocket"></i>
                 </div>
-                <div class="timeline-year">
+                <div className="timeline-year">
                   2022 <br /> 11
                 </div>
-                <h3 class="title">$GD available for corporate adoption</h3>
-                <p class="description">
+                <h3 className="title">$GD available for corporate adoption</h3>
+                <p className="description">
                   <span>
                     - $GD can be bought in bulk from remaining supply at a
                     slight discount
@@ -110,16 +110,16 @@ const Roadmap = () => {
                 </p>
               </div>
             </div>
-            <div class="timeline">
-              <div href="#" class="timeline-content">
-                <div class="timeline-icon">
-                  <i class="fa fa-rocket"></i>
+            <div className="timeline">
+              <div href="#" className="timeline-content">
+                <div className="timeline-icon">
+                  <i className="fa fa-rocket"></i>
                 </div>
-                <div class="timeline-year">
+                <div className="timeline-year">
                   2022 <br /> 12
                 </div>
-                <h3 class="title">Full release for VPets</h3>
-                <p class="description">
+                <h3 className="title">Full release for VPets</h3>
+                <p className="description">
                   <span>
                     - More equipment and accessories available to players
                   </span>
@@ -135,30 +135,30 @@ const Roadmap = () => {
                 </p>
               </div>
             </div>
-            <div class="timeline">
-              <div href="#" class="timeline-content">
-                <div class="timeline-icon">
-                  <i class="fa fa-rocket"></i>
+            <div className="timeline">
+              <div href="#" className="timeline-content">
+                <div className="timeline-icon">
+                  <i className="fa fa-rocket"></i>
                 </div>
-                <div class="timeline-year">
+                <div className="timeline-year">
                   2023 <br /> 01
                 </div>
-                <h3 class="title">
+                <h3 className="title">
                   Extend GreenDAO partnerships to US & Australia
                 </h3>
-                <p class="description"></p>
+                <p className="description"></p>
               </div>
             </div>
-            <div class="timeline">
-              <div href="#" class="timeline-content">
-                <div class="timeline-icon">
-                  <i class="fa fa-rocket"></i>
+            <div className="timeline">
+              <div href="#" className="timeline-content">
+                <div className="timeline-icon">
+                  <i className="fa fa-rocket"></i>
                 </div>
-                <div class="timeline-year">
+                <div className="timeline-year">
                   2023 <br /> 03
                 </div>
-                <h3 class="title">Vpets Tournament and Series A</h3>
-                <p class="description"></p>
+                <h3 className="title">Vpets Tournament and Series A</h3>
+                <p className="description"></p>
               </div>
             </div>
           </div>

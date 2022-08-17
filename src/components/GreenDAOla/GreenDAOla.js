@@ -1,6 +1,6 @@
 import React from "react";
 import { Row, Col, Button, Card, ListGroup } from "react-bootstrap";
-import CButton from "../CButton/CButton";
+import TokenObtain from "../TokenObtain/TokenObtain";
 //import CSS
 import "./GreenDAOla.scss";
 const GreenDAOla = () => {
@@ -60,6 +60,11 @@ const GreenDAOla = () => {
             </Card.Body>
           </Card>
         </Col>
+      </Row>
+
+      <Row className="mt-5">
+        <h2 className="text-start">How to obtain $GD token?</h2>
+        <TokenObtain />
       </Row>
     </div>
   );

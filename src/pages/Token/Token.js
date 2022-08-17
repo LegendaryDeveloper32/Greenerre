@@ -13,11 +13,11 @@ import Help from "../../components/Help/Help";
 const Token = () => {
   return (
     <div className="mt-[100px]">
-      <Ecosystem />
+      {/* <Ecosystem /> */}
       <GreenDAOla />
       <AOC />
       <VPets />
-      <Animalia />
+      {/* <Animalia /> */}
       <Roadmap />
       <Faq />
       <Help />
