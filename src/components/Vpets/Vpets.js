@@ -10,7 +10,7 @@ const VPets = () => {
       <h1 className="text-center">VPets</h1>
       <span className="text-center">Game-for-Good mobile pet simulator</span>
 
-      <Row className="border mt-5">
+      <Row className="border mt-5" md={2} xs={1}>
         <Col className="d-flex align-items-center justify-content-center bg-slate-100">
           <img src="/vpets.png" width="300px" height="300px" />
         </Col>
