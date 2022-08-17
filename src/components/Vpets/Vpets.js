@@ -4,18 +4,20 @@ import { Row, Col, Stack } from "react-bootstrap";
 //import Component
 import CBreadcrumb from "../CBreadcrumb/CBreadcrumb";
 import CStatistics from "../CStatistics/CStatistics";
+import VPetsCategory from "../VPetsCategory/VpetsCategory";
 const VPets = () => {
   return (
     <div className="m-5 text-center">
       <h1 className="text-center">VPets</h1>
       <span className="text-center">Game-for-Good mobile pet simulator</span>
-
-      <Row className="border mt-5" md={2} xs={1}>
+      <Row className="border mt-5" xs={1} lg={2}>
         <Col className="d-flex align-items-center justify-content-center bg-slate-100">
           <img src="/vpets.png" width="300px" height="300px" />
         </Col>
         <Col className="p-5 d-flex flex-column align-items-center justify-content-center">
-          <div className="grid gap-2 text-lg">
+          <VPetsCategory />
+
+          <div className="grid gap-2 text-lg mt-5">
             <p className="text-start">
               Connected to <b>Polygon Blockchain</b> via Smart Contract
             </p>
@@ -31,7 +33,7 @@ const VPets = () => {
             </p>
           </div>
           <div>
-            <CBreadcrumb />
+            {/* <CBreadcrumb /> */}
             <CStatistics />
           </div>
         </Col>

@@ -5,6 +5,8 @@ import Ecosystem from "../../components/Ecosystem/Ecosystem";
 import GreenDAOla from "../../components/GreenDAOla/GreenDAOla";
 import AOC from "../../components/AOC/AOC";
 import VPets from "../../components/Vpets/Vpets";
+import Animalia from "../../components/Animalia/Animalia";
+import Roadmap from "../../components/Roadmap/Roadmap";
 import Faq from "../../components/Faq/Faq";
 import Help from "../../components/Help/Help";
 
@@ -15,6 +17,8 @@ const Token = () => {
       <GreenDAOla />
       <AOC />
       <VPets />
+      <Animalia />
+      <Roadmap />
       <Faq />
       <Help />
     </div>

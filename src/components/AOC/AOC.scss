@@ -1,15 +1,16 @@
+.aoc-image,
 .aoc-content {
-  .card {
-    height: 100%;
-    border: none !important;
+  background-color: #ffa05c;
+}
 
-    .card-text {
-      font-size: 1.2rem;
-    }
-
-    .aoc-infobox:hover {
-      background-color: green;
-      color: white;
+.aoc-content {
+  color: white;
+  ul {
+    list-style-type: disc;
+    li {
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+      font-size: 1.3rem;
     }
   }
 }

@@ -4,58 +4,34 @@ import { Row, Col, Card } from "react-bootstrap";
 import "./CStatistics.scss";
 const CStatistics = () => {
   return (
-    <div className="my-5">
+    <div className="my-5 text-center">
       <h3>Statistics</h3>
-      <Row className="d-flex align-items-stretch justify-content-center cstatistics-control">
-        <Col>
-          <Card>
-            <Card.Body className="text-center">
-              <img src="/hp.png" width="100%" />
-              <Card.Text>HP</Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col>
-          <Card>
-            <Card.Body className="text-center">
-              <img src="/attack_low.png" width="100%" />
-              <Card.Text>ATTACK</Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col>
-          <Card>
-            <Card.Body className="text-center">
-              <img src="/defence.png" width="100%" />
-              <Card.Text>DEFENCE</Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col>
-          <Card>
-            <Card.Body className="text-center">
-              <img src="/speed.png" width="100%" />
-              <Card.Text>SPEED</Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col>
-          <Card>
-            <Card.Body className="text-center">
-              <img src="/fatigue.png" width="100%" />
-              <Card.Text>FATIQUE</Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col>
-          <Card>
-            <Card.Body className="text-center">
-              <img src="/charm.png" width="100%" />
-              <Card.Text>CHARM</Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
-      </Row>
+      <div className="cstatistics-control d-flex align-items-center justify-content-center flex-row flex-wrap">
+        <div className="statistics-item m-1 p-1">
+          <img src="/hp.png" />
+          <span>HP</span>
+        </div>
+        <div className="statistics-item m-1 p-1">
+          <img src="/attack.png" />
+          <span>ATTACK</span>
+        </div>
+        <div className="statistics-item m-1 p-1">
+          <img src="/defence.png" />
+          <span>DEFENCE</span>
+        </div>
+        <div className="statistics-item m-1 p-1">
+          <img src="/speed.png" />
+          <span>SPEED</span>
+        </div>
+        <div className="statistics-item m-1 p-1">
+          <img src="/fatigue.png" />
+          <span>FATIGUE</span>
+        </div>
+        <div className="statistics-item m-1 p-1">
+          <img src="/charm.png" />
+          <span>CHARM</span>
+        </div>
+      </div>
     </div>
   );
 };
