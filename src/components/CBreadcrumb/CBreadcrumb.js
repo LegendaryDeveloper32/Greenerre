@@ -8,7 +8,7 @@ const CBreadcrumb = () => {
       <h3>Progressive character development</h3>
       <div className="cbreadcrumb">
         <a href="##">Conception</a>
-        <a href="##">Maturity</a>
+        <a href="##">Maturty</a>
         <a href="##">Evolution</a>
       </div>
     </div>
