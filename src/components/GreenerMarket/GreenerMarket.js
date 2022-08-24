@@ -6,7 +6,10 @@ import HButton from "../HButton/HButton";
 import "./GreenerMarket.scss";
 const GreenerMarket = () => {
   const toWeb2Marketplace = () => {
-    window.open("https://greenerre-web2.onrender.com", "_blank");
+    window.open(
+      "https://greendao-web2-market-staging.herokuapp.com/",
+      "_blank"
+    );
   };
 
   const toWeb3Marketplace = () => {
