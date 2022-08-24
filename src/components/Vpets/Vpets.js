@@ -7,7 +7,7 @@ import CStatistics from "../CStatistics/CStatistics";
 import VPetsCategory from "../VPetsCategory/VpetsCategory";
 const VPets = () => {
   return (
-    <div className="m-5 text-center">
+    <div className="p-5 text-center">
       <h1 className="text-center">VPets</h1>
       <span className="text-center">Game-for-Good mobile pet simulator</span>
       <Row className="border mt-5" xs={1} lg={2}>

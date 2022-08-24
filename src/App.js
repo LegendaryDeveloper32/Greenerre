@@ -10,6 +10,10 @@ import Project from "./pages/Projects/Project";
 import OutreachEducation from "./pages/OutreachEducation/OutreachEducation";
 import Advisor from "./pages/Advisors/Advisor";
 import Token from "./pages/Token/Token";
+import GreenDAOlaPage from "./pages/GreenDAOla/GreenDAOla";
+import VPetsPage from "./pages/VPets/VPets";
+import GreenerMarketPage from "./pages/GreenerMarket/GreenerMarket";
+import ComingSoonPage from "./pages/ComingSoon/ComingSoon";
 
 //import components
 import Contact from "./components/Contact/Contact";
@@ -29,6 +33,10 @@ function App() {
         <Route path="/outreach-education" element={<OutreachEducation />} />
         <Route path="/advisor" element={<Advisor />} />
         <Route path="/token" element={<Token />} />
+        <Route path="/greenDAOla" element={<GreenDAOlaPage />} />
+        <Route path="/vpets" element={<VPetsPage />} />
+        <Route path="/market" element={<GreenerMarketPage />} />
+        <Route path="/soon" element={<ComingSoonPage />} />
       </Routes>
       <Contact />
       <Footer />
