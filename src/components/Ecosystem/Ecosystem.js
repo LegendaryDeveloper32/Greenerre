@@ -17,7 +17,7 @@ const Ecosystem = () => {
         <Col className="mb-2">
           <EcosystemItem
             text="Altlanteans Official Club"
-            alink="/"
+            alink="https://altlanteans.onrender.com"
             image="/aoc.jpg"
           />
         </Col>

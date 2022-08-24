@@ -5,7 +5,7 @@ import TokenObtain from "../TokenObtain/TokenObtain";
 import "./GreenDAOla.scss";
 const GreenDAOla = () => {
   return (
-    <div className="p-5 text-center token-item">
+    <div className="p-5 text-center token-item mt-[100px]">
       <h1 className="text-center">GreenDAOla($GD)</h1>
       <span className="text-center">
         Governance token/Stable coin for sustainability ecosystem
