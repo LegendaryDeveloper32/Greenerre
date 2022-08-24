@@ -6,6 +6,7 @@ import "./Roadmap.scss";
 const Roadmap = () => {
   return (
     <div className="container">
+      <h1 className="text-center mb-4">Roadmap</h1>
       <div className="row">
         <div className="col-md-12">
           <div className="main-timeline">

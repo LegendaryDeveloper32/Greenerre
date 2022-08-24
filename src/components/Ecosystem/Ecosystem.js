@@ -8,19 +8,35 @@ const Ecosystem = () => {
       <h1 className="text-center mb-4">Ecosystem</h1>
       <Row lg={5} md={2} xs={1} className="eco-content">
         <Col className="mb-2">
-          <EcosystemItem text="GreenDAOla" alink="/greenDAOla" />
+          <EcosystemItem
+            text="GreenDAOla"
+            alink="/greenDAOla"
+            image="/token.png"
+          />
         </Col>
         <Col className="mb-2">
-          <EcosystemItem text="Altlanteans Official Club" alink="/" />
+          <EcosystemItem
+            text="Altlanteans Official Club"
+            alink="/"
+            image="/aoc.jpg"
+          />
         </Col>
         <Col className="mb-2">
-          <EcosystemItem text="Vpets" alink="/vpets" />
+          <EcosystemItem text="Vpets" alink="/vpets" image="/vpets.png" />
         </Col>
         <Col className="mb-2">
-          <EcosystemItem text="TheGreenerMarket" alink="/market" />
+          <EcosystemItem
+            text="TheGreenerMarket"
+            alink="/market"
+            image="marketplace.png"
+          />
         </Col>
         <Col className="mb-2">
-          <EcosystemItem text="Coming soon" alink="/soon" />
+          <EcosystemItem
+            text="Coming soon"
+            alink="/soon"
+            image="/coming-soon.png"
+          />
         </Col>
       </Row>
     </div>

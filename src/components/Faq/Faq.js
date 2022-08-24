@@ -6,7 +6,7 @@ import { Accordion, Row, Col } from "react-bootstrap";
 import "./Faq.scss";
 const Faq = () => {
   return (
-    <div className="p-4 faq-control">
+    <div className="p-4 faq-control mt-5">
       <h1 className="text-center pb-4">Frequently Asked Questions (FAQ)</h1>
       <Row className="d-flex align-items-center justify-content-center">
         <Col className="d-none d-md-flex"></Col>
