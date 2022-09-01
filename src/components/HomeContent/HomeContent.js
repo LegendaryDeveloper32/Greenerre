@@ -12,7 +12,7 @@ const HomeContent = () => {
       <Col>
         <Link to="/services">
           <Card className="p-8 ">
-            <Card.Img variant="top" src="/home/esg.webp" />
+            <Card.Img variant="top" src="/home/esg.jpg" />
             <Card.Body>
               <Card.Title className="text-center">ESG SERVICES</Card.Title>
             </Card.Body>
@@ -32,7 +32,7 @@ const HomeContent = () => {
       <Col>
         <Link to="/token">
           <Card className="p-8">
-            <Card.Img variant="top" src="/home/token.webp" />
+            <Card.Img variant="top" src="/home/greendao.webp" />
             <Card.Body>
               <Card.Title className="text-center">GREEN DAO</Card.Title>
             </Card.Body>

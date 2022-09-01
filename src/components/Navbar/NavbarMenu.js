@@ -1,15 +1,33 @@
 import React from "react";
-
+import { useState } from "react";
 //import Components
 import Container from "react-bootstrap/Container";
+
 import Form from "react-bootstrap/Form";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 
+import BookModal from "../BookModal/BookModal";
+
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 //import CSS
 import "./NavbarMenu.scss";
 const NavbarMenu = () => {
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => {
+    setShow(false);
+  };
+  const handleOpen = () => {
+    setShow(true);
+  };
+
+  const handleBook = () => {
+    setShow(false);
+  };
+
   return (
     <Navbar bg="light" expand="lg" fixed="top" className="px-5">
       <Container fluid>
@@ -50,10 +68,18 @@ const NavbarMenu = () => {
             </NavDropdown>
           </Nav>
           <Form className="d-flex">
-            <button className="btn-consultation">Book a Consultation</button>
+            <button
+              type="button"
+              className="btn-consultation"
+              onClick={handleOpen}
+            >
+              Book a Consultation
+            </button>
           </Form>
         </Navbar.Collapse>
       </Container>
+
+      <BookModal show={show} onClose={handleClose} onBook={handleBook} />
     </Navbar>
   );
 };
