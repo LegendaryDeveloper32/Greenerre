@@ -5,7 +5,7 @@ import "./ServiceContent.scss";
 const ServiceContent = () => {
   return (
     <div className="container">
-      <div className="row service-item my-5 mx-5">
+      <div className="row service-item esg-service my-5 mx-5">
         <div className="col-md-6 col-sm-12 py-5 px-4">
           <h2 className="sm:text-center">ESG Services</h2>
           <ol type="1">
@@ -21,7 +21,7 @@ const ServiceContent = () => {
           <img src="/services/esg.webp" width="100%" />
         </div>
       </div>
-      <div className="row service-item my-5 mx-5">
+      <div className="row service-item web3-service my-5 mx-5">
         <div className="col-md-6 col-sm-12 py-5 px-4">
           <h2 className="sm:text-center">WEB3 Services</h2>
           <ul>

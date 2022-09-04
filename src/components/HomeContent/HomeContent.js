@@ -10,7 +10,7 @@ const HomeContent = () => {
   return (
     <Row lg={3} md={2} sm={1} className="g-4 m-5 home-content">
       <Col>
-        <Link to="/services">
+        <Link to="/services/esg">
           <Card className="p-8 ">
             <Card.Img variant="top" src="/home/esg.jpg" />
             <Card.Body>
@@ -20,7 +20,7 @@ const HomeContent = () => {
         </Link>
       </Col>
       <Col>
-        <a href="https://grenner-web3.onrender.com">
+        <a href="/services/web3">
           <Card className="p-8">
             <Card.Img variant="top" src="/home/web3.webp" />
             <Card.Body>
@@ -34,7 +34,7 @@ const HomeContent = () => {
           <Card className="p-8">
             <Card.Img variant="top" src="/home/greendao.webp" />
             <Card.Body>
-              <Card.Title className="text-center">GREEN DAO</Card.Title>
+              <Card.Title className="text-center">GREENDAO</Card.Title>
             </Card.Body>
           </Card>
         </Link>
