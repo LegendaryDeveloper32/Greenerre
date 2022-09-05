@@ -26,7 +26,7 @@ const Project = () => {
         <div className="col-md-6 col-sm-12 px-0">
           <BlogItem
             imgURL="/projects/token.webp"
-            title="GreenDAO Token"
+            title="GreenDAO"
             content=""
             position="bottom-left"
           />
@@ -34,8 +34,8 @@ const Project = () => {
         <div className="col-md-6 col-sm-12 px-0 right-item">
           <BlogItem
             imgURL="/projects/rapture.webp"
-            title="Project Rapture (COMING SOON)"
-            content=""
+            title="Project Rapture"
+            content="COMING SOON"
             position="bottom-right"
           />
         </div>
