@@ -15,7 +15,6 @@ const Services = () => {
       case "web3":
         scrollDiv =
           document.getElementsByClassName("web3-service")[0].offsetTop - offset;
-        window.scrollTo(0, 1000);
         break;
       case "esg":
         scrollDiv =

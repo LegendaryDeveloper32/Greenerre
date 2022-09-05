@@ -18,7 +18,7 @@ const Project = () => {
         <div className="col-lg-6 col-md-12 px-0 right-item">
           <BlogItem
             imgURL="/projects/network.webp"
-            title="NETWORK"
+            title="Kenek"
             content="A revolutionary and disruptive ecosystem to manage your contacts and network. Providing a sustainable alternative to traditional name cards, with a powerful organisation system to sort your contact any way you want. Netwerk frequently organises networking sessions across various industries to encourage growth and collaboration."
             position="top-right"
           />
@@ -26,7 +26,7 @@ const Project = () => {
         <div className="col-md-6 col-sm-12 px-0">
           <BlogItem
             imgURL="/projects/token.webp"
-            title="Green DAO Token"
+            title="GreenDAO Token"
             content=""
             position="bottom-left"
           />

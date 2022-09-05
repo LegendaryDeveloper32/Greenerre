@@ -96,31 +96,52 @@
   right: 80px;
 }
 .main-timeline .timeline:nth-child(4n + 2) .timeline-content {
-  background: #1862f7;
+  // background: #1862f7;
+  background: #2a2929;
 }
 .main-timeline .timeline:nth-child(4n + 2) .timeline-content:before {
-  background: linear-gradient(to top left, transparent 50%, #012e95 52%);
+  // background: linear-gradient(to top left, transparent 50%, #012e95 52%);
+  background: linear-gradient(to top left, transparent 50%, #171717 52%);
 }
 .main-timeline .timeline:nth-child(4n + 2) .timeline-year {
-  background: #3473ff;
+  // background: #3473ff;
+  background: #323131;
 }
 .main-timeline .timeline:nth-child(4n + 3) .timeline-content {
-  background: #22a009;
+  // background: #22a009;
+  background: #2a2929;
 }
 .main-timeline .timeline:nth-child(4n + 3) .timeline-content:before {
-  background: linear-gradient(to top left, transparent 50%, #123a0a 52%);
+  // background: linear-gradient(to top left, transparent 50%, #123a0a 52%);
+  background: linear-gradient(to top left, transparent 50%, #171717 52%);
 }
 .main-timeline .timeline:nth-child(4n + 3) .timeline-year {
-  background: #28b50c;
+  // background: #28b50c;
+  background: #323131;
 }
 .main-timeline .timeline:nth-child(4n + 4) .timeline-content {
-  background: #f61945;
+  // background: #f61945;
+  background: #2a2929;
 }
 .main-timeline .timeline:nth-child(4n + 4) .timeline-content:before {
-  background: linear-gradient(to top left, transparent 50%, #95001d 52%);
+  // background: linear-gradient(to top left, transparent 50%, #95001d 52%);
+  background: linear-gradient(to top left, transparent 50%, #171717 52%);
 }
 .main-timeline .timeline:nth-child(4n + 4) .timeline-year {
-  background: #fe3559;
+  // background: #fe3559;
+  background: #323131;
+}
+.main-timeline .timeline:nth-child(4n + 1) .timeline-content {
+  // background: #f61945;
+  background: #2a2929;
+}
+.main-timeline .timeline:nth-child(4n + 1) .timeline-content:before {
+  // background: linear-gradient(to top left, transparent 50%, #95001d 52%);
+  background: linear-gradient(to top left, transparent 50%, #171717 52%);
+}
+.main-timeline .timeline:nth-child(4n + 1) .timeline-year {
+  // background: #fe3559;
+  background: #323131;
 }
 @media screen and (max-width: 990px) {
   .main-timeline .timeline {

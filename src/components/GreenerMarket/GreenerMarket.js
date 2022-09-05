@@ -43,7 +43,8 @@ const GreenerMarket = () => {
               text="Web 3"
               className="mr-4"
               handleClick={toWeb3Marketplace}
-            />
+            />{" "}
+            &nbsp;&nbsp;&nbsp;
             <HButton text="Good & Service" handleClick={toWeb2Marketplace} />
           </div>
         </Col>

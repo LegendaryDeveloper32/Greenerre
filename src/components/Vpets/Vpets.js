@@ -5,6 +5,9 @@ import { Row, Col, Stack } from "react-bootstrap";
 import CBreadcrumb from "../CBreadcrumb/CBreadcrumb";
 import CStatistics from "../CStatistics/CStatistics";
 import VPetsCategory from "../VPetsCategory/VpetsCategory";
+
+//import CSS
+import "./Vpets.scss";
 const VPets = () => {
   return (
     <div className="p-5 text-center">

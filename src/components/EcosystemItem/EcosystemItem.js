@@ -5,16 +5,11 @@ import { Card } from "react-bootstrap";
 import "./EcosystemItem.scss";
 const EcosystemItem = (props) => {
   return (
-    <div className="item-control card card-custom bg-white border-white border-0">
-      <div className="card-custom-img"></div>
-      <div className="card-custom-avatar">
-        <img className="img-fluid" src={props.image} alt="Avatar" />
-      </div>
-      <div className="card-body">
-        <h4 className="card-title text-center">
-          <a href={props.alink}>{props.text}</a>
-        </h4>
-      </div>
+    <div className="item-control">
+      <img src={props.image} alt="Image" />
+      <h4 className="text-center">
+        <a href={props.alink}>{props.text}</a>
+      </h4>
     </div>
   );
 };
