@@ -6,10 +6,10 @@ import "./EcosystemItem.scss";
 const EcosystemItem = (props) => {
   return (
     <div className="item-control">
-      <img src={props.image} alt="Image" />
-      <h4 className="text-center">
-        <a href={props.alink}>{props.text}</a>
-      </h4>
+      <a href={props.alink}>
+        <img src={props.image} alt="Image" />
+        <h4 className="text-center">{props.text}</h4>
+      </a>
     </div>
   );
 };
