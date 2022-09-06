@@ -29,16 +29,16 @@ const NavbarMenu = () => {
   };
 
   return (
-    <Navbar bg="light" expand="lg" fixed="top" className="px-5">
+    <Navbar bg="light" expand="lg" fixed="top">
       <Container fluid>
-        <Navbar.Brand href="#">
+        <Navbar.Brand href="#" className="pl-5">
           <img src="/logo.webp" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
             className="ms-auto my-2 my-lg-0"
-            style={{ maxHeight: "100px" }}
+            style={{ maxHeight: "100vh" }}
             navbarScroll
           >
             <Nav.Link href="/" className="px-4">
@@ -66,16 +66,16 @@ const NavbarMenu = () => {
                 Board of Advisors
               </NavDropdown.Item>
             </NavDropdown>
+            <Form className="d-flex px-4">
+              <button
+                type="button"
+                className="btn-consultation"
+                onClick={handleOpen}
+              >
+                Book a Consultation
+              </button>
+            </Form>
           </Nav>
-          <Form className="d-flex">
-            <button
-              type="button"
-              className="btn-consultation"
-              onClick={handleOpen}
-            >
-              Book a Consultation
-            </button>
-          </Form>
         </Navbar.Collapse>
       </Container>
 

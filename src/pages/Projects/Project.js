@@ -19,7 +19,7 @@ const Project = () => {
           <BlogItem
             imgURL="/projects/network.webp"
             title="Kenek"
-            content="A revolutionary and disruptive ecosystem to manage your contacts and network. Providing a sustainable alternative to traditional name cards, with a powerful organisation system to sort your contact any way you want. Netwerk frequently organises networking sessions across various industries to encourage growth and collaboration."
+            content="A revolutionary and disruptive ecosystem to manage your contacts and Kenek. Providing a sustainable alternative to traditional name cards, with a powerful organisation system to sort your contact any way you want. Kenek frequently organises networking sessions across various industries to encourage growth and collaboration."
             position="top-right"
           />
         </div>

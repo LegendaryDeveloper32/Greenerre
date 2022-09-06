@@ -17,7 +17,7 @@ const ServiceContent = () => {
             <li>Carbon Offset Credits</li>
           </ol>
         </div>
-        <div className="col-md-6 col-sm-12 p-0">
+        <div className="col-md-6 col-sm-12 p-0 d-none d-md-block">
           <img src="/services/esg.webp" width="100%" />
         </div>
       </div>
@@ -38,7 +38,7 @@ const ServiceContent = () => {
             <li>Community Management</li>
           </ul>
         </div>
-        <div className="col-md-6 col-sm-12 p-0">
+        <div className="col-md-6 col-sm-12 p-0 d-none d-md-block">
           <img src="/services/web3.webp" width="100%" />
         </div>
       </div>
