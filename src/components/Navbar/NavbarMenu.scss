@@ -13,8 +13,13 @@ nav {
 }
 
 #navbarScroll {
-  background: white;
+  background: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
   .nav-link {
     color: black;
   }
+}
+
+.dropdown-menu {
+  border: none !important;
+  background: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
 }
