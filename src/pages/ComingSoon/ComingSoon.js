@@ -48,7 +48,7 @@ const ComingSoonPage = () => {
         setLseconds(seconds);
       }
     });
-  }, []);
+  }, [countDownEndDate]);
   return (
     <>
       <header
