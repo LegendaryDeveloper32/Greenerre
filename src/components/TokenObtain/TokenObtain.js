@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react";
-import { Row, Col, Card } from "react-bootstrap";
+import React from "react";
+import { Row, Col } from "react-bootstrap";
 
 import TokenObtainItem from "../TokenObtainItem/TokenObtainItem";
 //import CSS

@@ -10,7 +10,7 @@ const Footer = () => {
         <span>Sustainability made easy</span>
         <p>
           <b>Email:</b> &nbsp;
-          <a>fred@greenerre.sg</a>
+          <a href="#">fred@greenerre.sg</a>
         </p>
       </div>
       <div className="md:basis-1/4 basis-1/2 mb-4">
@@ -43,13 +43,13 @@ const Footer = () => {
         <h5 className="mb-3">SOCIALS</h5>
         <ul className="pl-0 d-flex flex-row gap-3 md:items-start items-center justify-center">
           <li>
-            <a>
-              <img src="/social/instagram.webp" />{" "}
+            <a href="#">
+              <img src="/social/instagram.webp" alt="instagram" />{" "}
             </a>
           </li>
           <li>
-            <a>
-              <img src="/social/linkedin.webp" />
+            <a href="#">
+              <img src="/social/linkedin.webp" alt="linkedin" />
             </a>
           </li>
         </ul>

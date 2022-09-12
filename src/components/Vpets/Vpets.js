@@ -1,8 +1,7 @@
 import React from "react";
-import { Row, Col, Stack } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 
 //import Component
-import CBreadcrumb from "../CBreadcrumb/CBreadcrumb";
 import CStatistics from "../CStatistics/CStatistics";
 import VPetsCategory from "../VPetsCategory/VpetsCategory";
 
@@ -15,7 +14,7 @@ const VPets = () => {
       <span className="text-center">Game-for-Good mobile pet simulator</span>
       <Row className="border mt-5" xs={1} lg={2}>
         <Col className="d-flex align-items-center justify-content-center bg-slate-100">
-          <img src="/vpets.png" width="300px" height="300px" />
+          <img src="/vpets.png" width="300px" height="300px" alt="vpets" />
         </Col>
         <Col className="p-5 d-flex flex-column align-items-center justify-content-center">
           <VPetsCategory />

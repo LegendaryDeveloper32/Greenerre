@@ -22,7 +22,7 @@ const AboutContent = () => {
       </div>
       <div className="row pt-5">
         <div className="col-lg-5 col-md-8 col-sm-12 mx-auto text-center about-me">
-          <img src="/56_JPG.webp" />
+          <img src="/56_JPG.webp" alt="frederick" />
           <p className="mt-5">
             Since 2018, our founder Frederick has been developing sustainable
             solutions to challenges in the global food supply chain. Today he

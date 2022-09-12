@@ -18,7 +18,7 @@ const ServiceContent = () => {
           </ol>
         </div>
         <div className="col-md-6 col-sm-12 p-0 d-none d-md-block">
-          <img src="/services/esg.webp" width="100%" />
+          <img src="/services/esg.webp" width="100%" alt="esg" />
         </div>
       </div>
       <div className="row service-item web3-service my-5 mx-5">
@@ -39,7 +39,7 @@ const ServiceContent = () => {
           </ul>
         </div>
         <div className="col-md-6 col-sm-12 p-0 d-none d-md-block">
-          <img src="/services/web3.webp" width="100%" />
+          <img src="/services/web3.webp" width="100%" alt="web3" />
         </div>
       </div>
     </div>

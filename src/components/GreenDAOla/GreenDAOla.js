@@ -21,7 +21,7 @@ const GreenDAOla = () => {
         <Col>
           <div className="d-grid gap-2">
             <div className="d-flex align-items-center justify-content-center">
-              <img src="/token.png" />
+              <img src="/token.png" alt="GreenDAOla" />
             </div>
           </div>
           <Row className="mt-4">

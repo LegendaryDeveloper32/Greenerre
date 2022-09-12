@@ -1,7 +1,7 @@
 import React from "react";
 
 //import Components
-import { Card, CardGroup, Row, Col } from "react-bootstrap";
+import { Card, Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 //import CSS
 import "./HomeContent.scss";

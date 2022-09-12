@@ -25,7 +25,7 @@ const HomeCarousel = () => {
         <Carousel.Caption className="text-center">
           <h3>Sustainability Made Easy</h3>
           <p>
-            <img src="/site_logo.webp" />
+            <img src="/site_logo.webp" alt="site logo" />
           </p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -38,7 +38,7 @@ const HomeCarousel = () => {
 
         <Carousel.Caption className="text-center">
           <h3>Sustainability Made Easy</h3>
-          <img src="/site_logo.webp" />
+          <img src="/site_logo.webp" alt="site logo" />
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -50,7 +50,7 @@ const HomeCarousel = () => {
 
         <Carousel.Caption className="text-center">
           <h3>Sustainability Made Easy</h3>
-          <img src="/site_logo.webp" />
+          <img src="/site_logo.webp" alt="site logo" />
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

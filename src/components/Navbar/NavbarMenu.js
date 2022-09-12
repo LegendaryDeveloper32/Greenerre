@@ -10,8 +10,6 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 
 import BookModal from "../BookModal/BookModal";
 
-import { toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
 //import CSS
 import "./NavbarMenu.scss";
 const NavbarMenu = () => {
@@ -32,7 +30,7 @@ const NavbarMenu = () => {
     <Navbar bg="light" expand="lg" fixed="top">
       <Container fluid>
         <Navbar.Brand href="#" className="pl-5">
-          <img src="/logo.webp" />
+          <img src="/logo.webp" alt="logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
