@@ -2,18 +2,19 @@ import React, { useEffect, useState } from "react";
 
 import "./ComingSoon.scss";
 const ComingSoonPage = () => {
-  const [countDownEndDate, setCountDownEndDdate] = useState(
-    "October 10, 2022 09:00:00"
-  );
-  let endDate = new Date(countDownEndDate).getTime();
+  const [countDownEndDate, setCountDownEndDate] = useState("");
 
   const [ldays, setLdays] = useState("");
   const [lhours, setLhours] = useState("");
   const [lminutes, setLminutes] = useState("");
   const [lseconds, setLseconds] = useState("");
-
   useEffect(() => {
-    let x = setInterval(() => {
+    setCountDownEndDate("October 10, 2022 09:00:00");
+  }, []);
+  useEffect(() => {
+    let endDate = new Date(countDownEndDate).getTime();
+
+    setInterval(() => {
       let timeNow = new Date().getTime();
       let timeLeft = endDate - timeNow;
 
@@ -114,25 +115,37 @@ const ComingSoonPage = () => {
                 <div className="w-full text-left flex mb-5">
                   <ul className="w-full flex place-content-center md:place-content-end gap-10 mx-auto text-gray-500">
                     <li>
-                      <a href="#" className="text-lg hover:text-amber-500">
+                      <a
+                        href="javascript:void(0);"
+                        className="text-lg hover:text-amber-500"
+                      >
                         <i className="fab fa-facebook-f"></i>
                       </a>
                     </li>
 
                     <li>
-                      <a href="#" className="text-lg hover:text-amber-500">
+                      <a
+                        href="javascript:void(0);"
+                        className="text-lg hover:text-amber-500"
+                      >
                         <i className="fab fa-twitter"></i>
                       </a>
                     </li>
 
                     <li>
-                      <a href="#" className="text-lg hover:text-amber-500">
+                      <a
+                        href="javascript:void(0);"
+                        className="text-lg hover:text-amber-500"
+                      >
                         <i className="fab fa-youtube"></i>
                       </a>
                     </li>
 
                     <li>
-                      <a href="#" className="text-lg hover:text-amber-500">
+                      <a
+                        href="javascript:void(0);"
+                        className="text-lg hover:text-amber-500"
+                      >
                         <i className="fab fa-instagram"></i>
                       </a>
                     </li>
