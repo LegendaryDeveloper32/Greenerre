@@ -115,37 +115,25 @@ const ComingSoonPage = () => {
                 <div className="w-full text-left flex mb-5">
                   <ul className="w-full flex place-content-center md:place-content-end gap-10 mx-auto text-gray-500">
                     <li>
-                      <a
-                        href="javascript:void(0);"
-                        className="text-lg hover:text-amber-500"
-                      >
+                      <a href="/" className="text-lg hover:text-amber-500">
                         <i className="fab fa-facebook-f"></i>
                       </a>
                     </li>
 
                     <li>
-                      <a
-                        href="javascript:void(0);"
-                        className="text-lg hover:text-amber-500"
-                      >
+                      <a href="/" className="text-lg hover:text-amber-500">
                         <i className="fab fa-twitter"></i>
                       </a>
                     </li>
 
                     <li>
-                      <a
-                        href="javascript:void(0);"
-                        className="text-lg hover:text-amber-500"
-                      >
+                      <a href="/" className="text-lg hover:text-amber-500">
                         <i className="fab fa-youtube"></i>
                       </a>
                     </li>
 
                     <li>
-                      <a
-                        href="javascript:void(0);"
-                        className="text-lg hover:text-amber-500"
-                      >
+                      <a href="/" className="text-lg hover:text-amber-500">
                         <i className="fab fa-instagram"></i>
                       </a>
                     </li>

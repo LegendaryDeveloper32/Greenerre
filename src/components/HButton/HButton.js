@@ -4,7 +4,7 @@ import "./HButton.scss";
 const HButton = (props) => {
   return (
     <div className="c-wrapper" onClick={props.handleClick}>
-      <a className="cta" href="javascript:void(0);">
+      <a className="cta" href="/">
         <span>{props.text}</span>
         <span>
           <svg
