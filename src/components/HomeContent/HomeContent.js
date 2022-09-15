@@ -14,7 +14,7 @@ const HomeContent = () => {
           <Card className="p-8 ">
             <Card.Img variant="top" src="/home/esg.jpg" />
             <Card.Body>
-              <Card.Title className="text-center">ESG SERVICES</Card.Title>
+              <Card.Title className="text-center">Corporate ESG Services</Card.Title>
             </Card.Body>
           </Card>
         </Link>
